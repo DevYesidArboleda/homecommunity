@@ -8,14 +8,26 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
+import android.widget.ImageView
 import co.devhack.homecommunity.R
 import co.devhack.homecommunity.presentation.views.claims.ClaimListActivity
 import kotlinx.android.synthetic.main.activity_menu.*
 import kotlinx.android.synthetic.main.app_bar_menu.*
 import kotlinx.android.synthetic.main.content_menu.*
+import com.google.firebase.auth.FirebaseAuth
+import android.widget.TextView
+
+
 
 class MenuActivity : AppCompatActivity(),
         NavigationView.OnNavigationItemSelectedListener {
+
+    var btnSignOut: Button? = null
+    var imageView: ImageView? = null
+    var textName: TextView? = null
+    var textEmail:TextView? = null
+    var mAuth: FirebaseAuth? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

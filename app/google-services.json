@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "109748484753",
+    "firebase_url": "https://homecommunity-master.firebaseio.com",
+    "project_id": "homecommunity-master",
+    "storage_bucket": "homecommunity-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109748484753:android:6c559e676bda99c8",
+        "android_client_info": {
+          "package_name": "co.devhack.homecommunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109748484753-24s1nmsu0fsrjmnfmdrrsverf08gpk71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.devhack.homecommunity",
+            "certificate_hash": "a564e926947b84e38ed2cd1d85878e1798879ba2"
+          }
+        },
+        {
+          "client_id": "109748484753-1c80f9cli3lieplevv59hq2kllqt207k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.devhack.homecommunity",
+            "certificate_hash": "87e0caead54cd25ab557fc21256fafa0a40ef598"
+          }
+        },
+        {
+          "client_id": "109748484753-ap1avnu4atem1lus8s9hefjueofpht8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApHDQZ3jjpU0CXZ7NX6hVBavPNVhHQrME"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109748484753-ap1avnu4atem1lus8s9hefjueofpht8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

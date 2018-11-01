@@ -24,4 +24,5 @@
     <string name="field_required">El campo es obligatorio</string>
     <string name="lbl_new_claims">Realizar Reclamos</string>
     <string name="sync">Sincronizar</string>
+
 </resources>
